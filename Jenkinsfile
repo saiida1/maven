@@ -19,11 +19,6 @@ pipeline {
             sh 'ping -c 5 localhost'
             
           },
-          "Safari": {
-            sh 'echo \'setting up selenium environment\''
-            sh 'ping -c 8 localhost'
-            
-          },
           "Chrome": {
             sh 'echo \'setting up selenium environment\''
             sh 'ping -c 3 localhost'
